@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<title>二十岁</title>
+	<script type="text/javascript">
+		window.onresize=window.onscroll=window.onload=function(){
+          var oindex=document.getElementById("index"); 
+          var oprofile=document.getElementById("profile"); 
+          var bodyScrollTop=document.body.scrollTop||document.documentElement.scrollTop;
+	        if(bodyScrollTop>100){
+	            oindex.style.display="block";
+	        }
+	        else{
+	            oindex.style.display="none";
+	        } 
+	        if(bodyScrollTop>1000){
+
+	            oprofile.style.display="none";
+	        }
+	        else{
+	            oprofile.style.display="block";
+	        } 
+
+		}
+	</script>
+</head>
+<body>
+	<header class="logo">
+		<a href="index.html"><img src="img/logo.jpg"></a>
+	</header>
+	<nav class="nav-wrap">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="index2.html">干货</a></li>
+			<li><a href="#">随笔</a></li>
+			<li><a href="about.html">关于</a></li>
+			
+		</ul>
+	</nav>
+	<div id="index">
+		<div class="wrapper">
+			<h1 class="left">Introduction</h4>
+			<h2 class="right">二十岁</h4>
+		</div>
+	</div>
+	<div id="profile">
+			<img src="img/info.gif" class="author" alt="user"/>
+			<div class="info">
+				<h4>Evey黄</h4>
+				<ul class="social-top">
+                	<li><a href="#" class="weibo" target="_blank"><i class="fa  fa-weibo"></i></a></li>
+                	<li><a href="#" class="twitter" target="_blank"><i class="fa  fa-twitter"></i></a></li>
+                	<li><a href="#" class="facebook" target="_blank"><i class="fa  fa-facebook"></i></a></li>
+                	<li><a href="#" class="github" target="_blank"><i class="fa  fa-github-alt"></i></a></li>
+                </ul>
+				<p>Evey黄，现居重庆，大二学生</p>
+			</div>
+		</div>
+
+	<section class="post-wrapper">
+		<header>
+			<h2>随笔</h2>
+			<h1 id="posttitle">二十岁</h1>
+			<span>
+				Posted by <a href="" target="_blank">Evey</a>
+				on <i class="fa fa-clock-o"></i> <time datetime="2016-05-07">May 7, 2016</time>.
+			</span>
+		</header>
+		<section class="postbody">
+		    <img class="poto"src="img/049.jpg"alt="照片">
+			<p>对于二十岁来说，并没有十八岁那么让人期待。但二十岁确实是一个新的起点。</p>
+			<p>二十岁给身处大学的我们更多的责任，例如社会上的，家庭上的。但我现在想说的是个人人生道路上的。二十岁无疑是我们人生阶段中重要的阶段，在这个阶段我们应该好好规划我们的人生。五年后你从事什么工作，你过什么样的生活乃至十年后的人生与这一阶段或多或少都有一点关系。</p>
+			<p>对于十九岁的我，二十岁的我更清楚自己想要的是什么。感谢十九岁时让我通过《web全栈工程师的自我修养》这本书认识了余果这个非常优秀的人。他的一些自学经历给我在学习网页设计上给予很大的鼓励，让我更加坚定地从事网页学习。</p>
+			<p>对于家庭。二十岁开始要更加地注重与家庭的感情沟通。自从我上了大学，我发现很硬汉不善言辞的父亲忽然变得感性了，经常在微信上找我聊天，也会破天荒地称呼我为“宝贝”，这放以前绝对想不出我爸居然这么感性。在新年的时候也发现父母和一直疼爱自己的长辈们忽然地就老了，我想我应该花更多时间陪伴他们，聆听他们年轻时候的故事。</p>
+			<p>对于友谊。最近在看一本书Liz Climo写的《Lobster is the Best Medicine》，中文译名很可爱，叫《我可以咬一口吗》讲很多小动物之间的友谊，画风很可爱。这让我想起我的友谊，这么多年来也交到了很多知心好友，最开始的黄大芊，然后是阿新哥，佳哥，大肥享，大肥颖和翠翠，接着是麦，荣婷，芳燕，阿光，程等等。很多一直都有着联系，还有些大学感情更好了，我一直坚信好的友谊不会被时间和距离打败。让我很感动的是生日这天很多朋友都记着，这对于我这种畸形不好的人来讲是多么不容易啊。感谢有这些朋友一直陪伴在我身边，上大学距离远了更应该多联系增进感情。</p>
+			<p>总之，二十岁生日快乐。希望下一年我做得更好。</p>
+		</section>
+		<div class="post-profile">
+			<img src="img/info.gif" class="author" alt="user"/>
+			<div class="info">
+				<h4>Evey黄</h4>
+				<p>Evey黄，现居重庆，大二学生</p>
+                <ul class="social">
+                	<li><a href="#" class="weibo" target="_blank"><i class="fa  fa-weibo"></i></a></li>
+                	<li><a href="#" class="twitter" target="_blank"><i class="fa  fa-twitter"></i></a></li>
+                	<li><a href="#" class="facebook" target="_blank"><i class="fa  fa-facebook"></i></a></li>
+                	<li><a href="#" class="github" target="_blank"><i class="fa  fa-github-alt"></i></a></li>
+                </ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		Copyright &copy; <a href="#">Evey</a>. 2016 &bull; All rights reserved.
+	</footer>
+</body>
+</html>

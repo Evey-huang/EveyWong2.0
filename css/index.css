@@ -1,0 +1,597 @@
+/*Global*/
+.clearfix:after
+{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	
+	background: #FFF;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 16px;
+	           
+}
+
+p
+{
+	color: #333332;
+	word-wrap: break-word;
+	line-height: 38px;
+	margin: 30px 0;
+}
+
+a
+{
+	text-decoration: none;
+	display: inline-block;
+	color: #007cc3;
+}
+
+ul
+{
+	display: block;
+	list-style-type: none;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul li
+{
+	display:inline-block;
+}
+
+.author
+{
+	width: 100px;
+	height: 140px;
+	float: left;
+	margin: 15px 0;
+}
+/*页头和页脚*/
+.logo img
+{
+	width: 80px;
+	height: 100px;
+}
+
+nav
+{
+	position: absolute;
+	z-index: 400px;
+	top: 20px;
+	right: 40px;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+#index
+{
+	width: 100%;
+	padding: 5px 0 20px;
+	/*margin: 0;*/
+	position: fixed;
+	top: 0;
+	/*left: 0;*/
+	z-index: 100;
+	color: #ececf1;
+	/*background-color: #272727;*/
+	background-color: rgba(39,39,39,0.9);
+}
+ 
+ .left
+ {
+ 	float: left;
+ } 
+
+.right
+{
+	float: right;
+}
+
+.wrapper h1 {
+	font: 600 18px 'Open Sans', Serif;
+    font-weight: 400;
+    font-size: 26px;
+    /*display: block;*/
+    font-weight: bold;
+}
+
+#index h1,#index h2
+{
+	margin: 5px;
+	padding-left:70px;
+	padding-right:70px;
+}
+
+.nav-wrap ul
+{
+    letter-spacing: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-wrap ul li 
+{
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+footer
+{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 90px;
+
+}
+/*主页主体*/
+.home-wrap 
+{
+	min-height: 700px;
+	margin: 0;
+	border-top: 0 none;
+}
+
+.info-group
+{
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #A5A051;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.info
+{
+	float: right;
+	width: 82%;
+	 
+}
+
+.info p
+{
+	margin: 25px 0;
+	font: 400 14px 'Open Sans', Serif;
+	line-height: 32px;
+   
+}
+
+.info h4
+{
+	font-size: 20px;
+}
+
+.essay-wrap
+{
+	margin-top: 50px;
+	margin-bottom: 110px;
+}
+
+.essay-wrap .icon
+{
+	float: right;
+	width: 150px;
+	height: 100px;
+	padding-right: 300px;
+}
+
+.essay-wrap .essay
+{
+	margin-left: 300px;
+	
+}
+
+.essay h4 
+{
+	font-size: 22px;
+	padding-bottom: 20px;
+	
+}
+
+.essay a
+{
+	color: #000000;
+}
+
+.essay p
+{
+	padding-bottom: 20px;
+}
+
+.tabs
+{
+	text-align: center;
+	background: none;
+	/*border: 0;
+	padding: 0 0 12% 0;*/
+}
+
+.tabs a
+{
+	margin: 0 2%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	border-radius: 100px;
+	border: 1px solid #ddd;
+	color: #aaa;
+	position: relative;
+	left: -10px;
+}
+
+.tabs .next
+{
+	right: -40px;
+}
+
+/*干货*/
+#profile
+{
+	position: fixed;
+	width: 15%;
+	right: 5%;
+	/*filter: alpha(opacity:50);
+	opacity: 0.5;*/
+}
+
+#profile .info
+{
+	border-bottom: 1px solid #bbbbbb;
+	
+}
+
+#profile .author
+{
+	float: right;
+	padding-right: 85px;
+	padding-top: 50px;
+}
+
+.post-wrap ul
+{
+	width: 750px;/*820*/
+	margin:0 auto;
+}
+
+.post-wrap ul li
+{
+	width: 100%!important;/*!important作用是提高指定css样式规则的应用优先权*/
+}
+
+.post-wrap ul li a
+{
+	
+	font-weight: 300;
+	color: #3b3b3b;
+	display:block;
+	height:25px;
+	line-height:25px;
+}
+
+.post-wrap .category
+{
+	color: #bbbbbb;
+	font-size: 12px;
+	/*position: relative;*/
+	line-height:25px;
+}
+
+.post-wrap .post
+{
+	border-bottom: 1px solid #d7d7d7;
+	width: 60%;/*56%*/
+	padding:8px 0;
+	
+}
+
+.post-wrap .post a time
+{
+	font-size: 12px;
+	color: #bbbbbb;
+    float: right;
+}
+/*文章链接*/
+
+.post-wrapper
+{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 760px;
+}
+
+.post-wrapper span
+{
+	color: #bbbbbb;
+	font-size: 12px;
+	word-spacing: 4px;
+}
+
+.post-wrapper h1
+{
+	padding: 27px 0;
+}
+.post-wrapper h2
+{
+	color: #bbbbbb;
+	font-size: 14px;
+}
+
+.poto
+{
+	padding-top: 30px;
+	/*position: relative;
+	right: 10px;*/
+}
+
+.post-profile
+{
+	
+    padding: 130px 0;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+	
+}
+
+.post-profile .author
+{
+	display: block;
+	margin: -90px 0;
+}
+
+.post-profile .info
+{
+	display: block;
+	margin: -90px 0;
+}
+
+.social-top
+{
+	list-style: none;
+	margin: 25px 0 0;
+	padding: 0;
+}
+
+.social-top .weibo
+{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;/*使图标居中*/
+    border-radius:30px/25px;
+    color:#606060;
+    background: #efefef;
+}
+
+.social-top .twitter
+{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;/*使图标居中*/
+    border-radius:30px/25px;
+    color:#606060;
+    background: #efefef;
+}
+
+.social-top .facebook
+{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;/*使图标居中*/
+    border-radius:30px/25px;
+    color:#606060;
+    background: #efefef;
+}
+
+.social-top .github
+{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;/*使图标居中*/
+    border-radius:30px/25px;
+    color:#606060;
+    background: #efefef;
+}
+.social
+{
+	list-style: none;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+.social a
+{
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.social .weibo,.twitter,.facebook,.github
+{
+	/*box-shadow: inset 0 0 0px 20px #c8232c;*//*box-shadow属性实现图层阴影效果；
+	box-shadow:阴影类型 X轴位移 Y轴位移 阴影大小 阴影扩展 阴影颜色；
+	当不设阴影类型时，默认为投影效果。当设为inset时，为内阴影效果。*/
+	width: 39px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;/*使图标居中*/
+    border-radius:30px/25px;
+    color:#fff;
+
+}
+
+.social .weibo
+{
+	background: #C9222C;
+
+}
+
+.social .twitter
+{
+	background: #1E90FF;
+}
+
+.social .facebook
+{
+	background: #473C8B;
+}
+
+.social .github
+{
+	background: #000;
+}
+
+/*关于链接*/
+
+.container
+{
+	margin: 0 auto;
+	width: 940px;
+}
+
+.container h1
+{
+	color:color: #333332;;
+}
+
+.skill-h2
+{
+    font-size: 16px;
+    padding-left: 205px;
+    padding-top: 30px;
+    line-height: 30px;
+	-webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+dt
+{
+	float: left;
+	clear: left;
+	width: 110px;
+    text-align: left;
+}
+
+dd
+{
+	line-height: 20px;
+	margin-left: 80px;
+	padding: 3px 0;
+}
+
+.photo img
+{
+	float: right;
+	margin-top: -200px;
+}
+
+.change
+{
+	position: absolute;
+	top:110px;
+	right: 210px;
+}
+
+.skill-groups
+{
+	position: absolute;
+	padding-left: 205px;
+
+}
+
+.skill
+{
+	position: relative;
+    float: left;
+    margin-right: 10px;
+    height: 120px;
+}
+
+.skill-title
+{
+	position: absolute;
+    top: 90px;
+    left: 0;
+    width: 86px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.skill-lv
+{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 86px;
+    text-align: center;
+    z-index: 10;/*使内容可以显示在上面*/
+    font-weight: bold;
+}
+
+.skill-bar
+{
+    display: block;
+    border: 2px solid #bc8f8f;
+    height: 80px;
+    width: 80px;
+    border-radius: 42px;
+    padding: 1px;
+    -webkit-transform: rotate(-90deg);/*逆时针旋转90度*/
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.skill-bar b
+{
+	display: block;
+    height: 80px;
+    overflow: hidden;
+}
+
+.skill-bar b b
+{
+	display: block;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.about-me
+{
+	font-size: 16px;
+    padding-left: 205px;
+    padding-top: 170px;
+    line-height: 30px;
+}
+
+.writing p
+{
+	line-height: 20px;
+    padding-left: 205px;
+    width: 940px;
+   
+}
+
+
+
+
